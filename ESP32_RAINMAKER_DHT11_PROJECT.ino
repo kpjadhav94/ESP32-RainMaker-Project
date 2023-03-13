@@ -26,7 +26,7 @@ const char *pop = "swami@123";
 /*----- These pins will be assigned to ESP32 Module and remain static throughout the program ----*/
 static uint8_t gpio_reset = 0;  // Assign GPIO0 pin for gpio_reset
 static uint8_t DHTPIN = 19;     // ESP32 pin GPIO19 connected to DHT11 sensor
-static uint8_t relay = 2;       // ESP32 pin GPIO2 connected to Relay
+static uint8_t relay = 21;      // ESP32 pin GPIO21 connected to Relay
 bool relay_state = true;        // Default Relay status is true. For bool datatype only 2 value can be assigned i.e. True (1) or False(0)
 bool wifi_connected = 0;        // Default status of Wi-Fi connection is 0 i.e. False
 
